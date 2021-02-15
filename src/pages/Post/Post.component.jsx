@@ -60,36 +60,6 @@ export default function Post() {
             </Link>
           </article>
         </Grid>
-
-        {/* TESTING */}
-        <Grid>
-          <Row>
-            <Column size={1}>
-              <p>Testing Column</p>
-            </Column>
-          </Row>
-
-          <Row>
-            <Column size={1} collapse="xs">
-              <p>XS</p>
-            </Column>
-            <Column size={1} collapse="s">
-              <p>S</p>
-            </Column>
-            <Column size={1} collapse="m">
-              <p>M</p>
-            </Column>
-            <Column size={1} collapse="l">
-              <p>L</p>
-            </Column>
-            <Column size={1} collapse="xl">
-              <p>XL</p>
-            </Column>
-            <Column size={1} collapse="xxl">
-              <p>XXL</p>
-            </Column>
-          </Row>
-        </Grid>
       </Section>
     </Container>
   );
